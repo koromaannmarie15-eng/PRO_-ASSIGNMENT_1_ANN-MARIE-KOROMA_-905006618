@@ -7,7 +7,7 @@ BACKGROUND:
 STEP-BY- STEP ALGORITHM:
 
 
-tep-by-Step Algorithm
+step-by-Step Algorithm
 
 (1) Start the program Declare the variables: location, wasteType, severity, priority,
 
