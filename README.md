@@ -7,8 +7,28 @@ BACKGROUND:
 STEP-BY- STEP ALGORITHM:
 
 
-tep-by-Step Algorithm Start the programDeclare the variables: location, wasteType, severity, priority, againDisplay a welcome messageRepeat the following steps while the user wants to continue:    Ask the user to enter the Location    Ask the user to enter the Waste Type    Ask the user to enter the Severity    If the Waste Type is "Blocked Drain" OR "Hazardous" then        Set priority to "HIGH"    Else        If Severity is "High" then set priority to "HIGH"        Else set priority to "NORMAL"    Display the Location, Waste Type and Priority    If priority is "HIGH" then display an urgent message    Else display a normal collection message    Ask the user if they want to report again (YES or NO)When the user says NO, display a thank-you messageStop the program.
+tep-by-Step Algorithm
+
+(1) Start the program Declare the variables: location, wasteType, severity, priority,
+
+(2) again Display a welcome message Repeat the following steps while the user wants to continue:
+   
+(3) Ask the user to enter the Location
+  
+(4) Ask the user to enter the Waste Type
+   
+(5) Ask the user to enter the Severity If the Waste Type is "Blocked Drain" OR "Hazardous"
+ 
+(6)then Set priority to "HIGH" Else If Severity is "High" then set priority to "HIGH"       
+
+(7) Else set priority to "NORMAL" Display the Location, Waste Type and Priority If priority is "HIGH" 
+
+(8)then display an urgent message  Else display a normal collection message    
+
+(9)Ask the user if they want to report again (YES or NO)When the user says NO, display a thank-you message Stop the program.
 
 PSEUDOCODE:
 
-Pseudocode START     DECLARE location AS String    DECLARE wasteType AS String    DECLARE severity AS String    DECLARE priority AS String    DECLARE again AS String    OUTPUT "Welcome to Simple Waste Priority Checker"    DO        OUTPUT "Enter Location:"        INPUT location        OUTPUT "Enter Waste Type"        OUTPUT "(Plastic / Organic / Blocked Drain / Hazardous):"        INPUT wasteType        OUTPUT "Enter Severity (Low / Medium / High):"        INPUT severity        IF wasteType = "Blocked Drain" OR wasteType = "Hazardous" THEN            priority ← "HIGH"        ELSE            IF severity = "High" THEN                priority ← "HIGH"            ELSE                priority ← "NORMAL"            END IF        END IF        OUTPUT "Location: " + location        OUTPUT "Waste Type: " + wasteType        OUTPUT "Priority: " + priority        IF priority = "HIGH" THEN            OUTPUT "URGENT! Clean this drain immediately"        ELSE            OUTPUT "This will be collected soon"        END IF        OUTPUT "Do you want to report again? (YES/NO)"        INPUT again    WHILE again = "YES"    OUTPUT "Thank you for helping keep Freetown clean"END.
+
+ START
+     DECLARE location AS String    DECLARE wasteType AS String    DECLARE severity AS String    DECLARE priority AS String    DECLARE again AS String    OUTPUT "Welcome to Simple Waste Priority Checker"    DO        OUTPUT "Enter Location:"        INPUT location        OUTPUT "Enter Waste Type"        OUTPUT "(Plastic / Organic / Blocked Drain / Hazardous):"  INPUT wasteType        OUTPUT "Enter Severity (Low / Medium / High):"        INPUT severity        IF wasteType = "Blocked Drain" OR wasteType = "Hazardous" THEN            priority ← "HIGH"        ELSE            IF severity = "High" THEN                priority ← "HIGH"            ELSE                priority ← "NORMAL"            END IF        END IF        OUTPUT "Location: " + location        OUTPUT "Waste Type: " + wasteType        OUTPUT "Priority: " + priority        IF priority = "HIGH" THEN            OUTPUT "URGENT! Clean this drain immediately"        ELSE            OUTPUT "This will be collected soon"        END IF        OUTPUT "Do you want to report again? (YES/NO)"        INPUT again    WHILE again = "YES"    OUTPUT "Thank you for helping keep Freetown clean"END.
